@@ -1,4 +1,69 @@
-<?xml version="1.0" encoding="UTF-8"?><rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[Kristian Espina]]></title><description><![CDATA[My Personal Portfolio]]></description><link>https://espina.dev</link><generator>GatsbyJS</generator><lastBuildDate>Fri, 01 Nov 2019 03:51:11 GMT</lastBuildDate><item><title><![CDATA[Project: AI Trashcan]]></title><description><![CDATA[This project was submitted under IE 532 Technoproneurship Class at Batangas State University. Problem Despite strong environmental activism…]]></description><link>https://espina.dev/ai-trashcan/</link><guid isPermaLink="false">https://espina.dev/ai-trashcan/</guid><pubDate>Sat, 02 Nov 2019 00:00:00 GMT</pubDate><content:encoded>&lt;blockquote&gt;
+<?xml version="1.0" encoding="UTF-8"?><rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[Kristian Espina]]></title><description><![CDATA[My Personal Portfolio]]></description><link>https://espina.dev</link><generator>GatsbyJS</generator><lastBuildDate>Fri, 01 Nov 2019 10:11:05 GMT</lastBuildDate><item><title><![CDATA[C# Bot for Ragnarok Online Philippines (ROPH)]]></title><description><![CDATA[tl;dr Utilizes multi-threading, queueing and asyncio. This bot was originally written for ragnarok online ph server. However, I’ve decided…]]></description><link>https://espina.dev/pixel-bot/</link><guid isPermaLink="false">https://espina.dev/pixel-bot/</guid><pubDate>Sat, 02 Nov 2019 22:40:32 GMT</pubDate><content:encoded>&lt;p&gt;&lt;span
+      class=&quot;gatsby-resp-image-wrapper&quot;
+      style=&quot;position: relative; display: block; margin-left: auto; margin-right: auto;  max-width: 590px;&quot;
+    &gt;
+      &lt;a
+    class=&quot;gatsby-resp-image-link&quot;
+    href=&quot;/static/ca3e6449f58ce3f16cff31f199b1f511/8ff1e/pixelbot_banner.png&quot;
+    style=&quot;display: block&quot;
+    target=&quot;_blank&quot;
+    rel=&quot;noopener&quot;
+  &gt;
+    &lt;span
+    class=&quot;gatsby-resp-image-background-image&quot;
+    style=&quot;padding-bottom: 75%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAPCAIAAABr+ngCAAAACXBIWXMAAAsSAAALEgHS3X78AAADj0lEQVQozw3MWVMaBwAA4P0PfWkyjTaI0UIEcZFTWDlE7nOXYwkLC3IKwq4cu1xyCIgKamgkYqrT6FhNTTJtk3am7TTtTB46nWn73Ke+9SV9zEP71OYHfB8gFG+IFxp8cfkOJ4cokxU0CfLIKVZCwo2xJ0LTk8FpVnwBTLCZGMgKK+bjPHaIN5uamcbuTqKAREDPC4tcsKAU4nGtJqWT6flLkZV+3k3xb7vHPvByOLE5dnDqQ9QIZcRcfHLi3iz33eWS8qMANE+LwTyXs24C5UmNIAgJRO+/96B3dEgNZExk7CbMYeOMW27ObdSuJJjj8I0bDibDxxwzcac8gE/faOJ962IeXbR9flD75qizzJ653x12m+cY16Od9d5hYtMTroA5EEdwE2SzaZxinnf8poEzBgN2WboeHFbDJ81o++fz2k+nrQwWfjrq93N0XEtJ76IWHelHCjsUud8kdmuZbpkIIKQPpj2GNUApSboVRBntVgPFzyrI6WbkybCT8VjCOqNXuy4VrDbSe4P2xXDnctC76myelQqfbNXO25VRwt8EIBBfk+nwyY+QcVbOqgyqpJu45VGHKKWrIu6KfCHTybUe9J+ODl8+HLzot68alTOaHFWyR2T8PuCROyJqR10n7TkXvn/cbSV9lwfUf2//ePvXr3ZdRCBI58l+feN4cHB9PPpqq3lWr3yaie9u5E+KxENANuugzcYntKEIi0475EUvs78Kv355/u+b30prBQbDH8J7fv/2/sHz6y9e7+2+SEc/DnsajdxJGG0CvHH7nh9uB40J1cxxDW/G7Dmn4pcfLv9583ubLt8aR1m8KBuMSRQlM9wzmepSUdyozsJayionAJDhMKnpqCP53abm1eMSFbCtmaCznfrff77KYFGPJh+yV1FzzaDdkC8WlFLynYSgVaUqYdaTAIsVCOEt51Lsy4bteth5dli/rOF7xOqPX19F4GzK1Uo5Wyu2xj1zE7O2/LZWDjuMO7ZCtuY6tgNMTbrU87Aain17sb1JVpLIThXDRznTLuGP2EjK2yHd7YJ3K4duZ73dqKeex7ZpbDfl2g4hW4BkLiycS+og5z5hqUWssIVyWaqNZDKKIFZN2qmvufRlj7HsNBZRYxU1lmEDbVnOLi+lDcYCIODg4FxECPp4bCt3BhYJIzJZUSCkxFJaBtECUUa8kJ0TpflSQibPKZW0Qkmp1CWhIi1Tkf8DEMpe2xDFTC0AAAAASUVORK5CYII=&apos;); background-size: cover; display: block;&quot;
+  &gt;&lt;/span&gt;
+  &lt;img
+        class=&quot;gatsby-resp-image-image&quot;
+        alt=&quot;Bot Banner&quot;
+        title=&quot;Bot Banner&quot;
+        src=&quot;/static/ca3e6449f58ce3f16cff31f199b1f511/b9e4f/pixelbot_banner.png&quot;
+        srcset=&quot;/static/ca3e6449f58ce3f16cff31f199b1f511/cf440/pixelbot_banner.png 148w,
+/static/ca3e6449f58ce3f16cff31f199b1f511/d2d38/pixelbot_banner.png 295w,
+/static/ca3e6449f58ce3f16cff31f199b1f511/b9e4f/pixelbot_banner.png 590w,
+/static/ca3e6449f58ce3f16cff31f199b1f511/8ff1e/pixelbot_banner.png 800w&quot;
+        sizes=&quot;(max-width: 590px) 100vw, 590px&quot;
+        loading=&quot;lazy&quot;
+      /&gt;
+  &lt;/a&gt;
+    &lt;/span&gt;&lt;/p&gt;
+&lt;h2&gt;tl;dr&lt;/h2&gt;
+&lt;p&gt;Utilizes multi-threading, queueing and asyncio. This bot was originally written for ragnarok online ph server. However, I’ve decided to open the source to the public since I am no longer using it. Basically, this program calls on to system-level hooks to avoid anti-cheat detections.&lt;/p&gt;
+&lt;h2&gt;Technologies Used&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;Windows C#&lt;/li&gt;
+&lt;li&gt;WinForms&lt;/li&gt;
+&lt;li&gt;Python&lt;/li&gt;
+&lt;li&gt;OpenCV&lt;/li&gt;
+&lt;li&gt;Multithreading/AsyncIO&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2&gt;Source Code&lt;/h2&gt;
+&lt;blockquote&gt;
+&lt;p&gt;&lt;del&gt;Unfortunately, the project is closed-source. Preview of source code available upon request.&lt;/del&gt; EDIT: Opensourced*&lt;/p&gt;
+&lt;p&gt;&lt;a href=&quot;https://gitlab.com/onelespina/ROPHBot&quot;&gt;https://gitlab.com/onelespina/ROPHBot&lt;/a&gt;&lt;/p&gt;
+&lt;/blockquote&gt;</content:encoded></item><item><title><![CDATA[C# Bot for RO Mobile : Eternal Love (Android)]]></title><description><![CDATA[tl;dr This bot also utilizes multi-threading, queueing and asyncio. Written using C# + EmguCV Technologies Used Windows C# Winforms EmguCV…]]></description><link>https://espina.dev/romobile-bot/</link><guid isPermaLink="false">https://espina.dev/romobile-bot/</guid><pubDate>Sat, 02 Nov 2019 22:40:32 GMT</pubDate><content:encoded>&lt;h2&gt;tl;dr&lt;/h2&gt;
+&lt;p&gt;This bot also utilizes multi-threading, queueing and asyncio. Written using C# + EmguCV&lt;/p&gt;
+&lt;h2&gt;Technologies Used&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;Windows C#&lt;/li&gt;
+&lt;li&gt;Winforms&lt;/li&gt;
+&lt;li&gt;EmguCV&lt;/li&gt;
+&lt;li&gt;Tesseract-OCR&lt;/li&gt;
+&lt;li&gt;RegEx&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2&gt;Milestones&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;Automatic MVP Hunting&lt;/li&gt;
+&lt;li&gt;Optical Character Recognition (OCR)&lt;/li&gt;
+&lt;li&gt;MVP Timer&lt;/li&gt;
+&lt;li&gt;Sprite Detection&lt;/li&gt;
+&lt;li&gt;User Interface&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2&gt;Source Code&lt;/h2&gt;
+&lt;blockquote&gt;
+&lt;p&gt;&lt;del&gt;Unfortunately, the project is closed-source. Preview of source code available upon request.&lt;/del&gt; EDIT: Opensourced*&lt;/p&gt;
+&lt;p&gt;&lt;a href=&quot;https://gitlab.com/onelespina/ro-mobile-assistant&quot;&gt;https://gitlab.com/onelespina/ro-mobile-assistant&lt;/a&gt;&lt;/p&gt;
+&lt;/blockquote&gt;</content:encoded></item><item><title><![CDATA[Project: AI Trashcan]]></title><description><![CDATA[This project was submitted under IE 532 Technoproneurship Class at Batangas State University. Problem Despite strong environmental activism…]]></description><link>https://espina.dev/ai-trashcan/</link><guid isPermaLink="false">https://espina.dev/ai-trashcan/</guid><pubDate>Sat, 02 Nov 2019 00:00:00 GMT</pubDate><content:encoded>&lt;blockquote&gt;
 &lt;p&gt;This project was submitted under IE 532 Technoproneurship Class at Batangas State University.&lt;/p&gt;
 &lt;/blockquote&gt;
 &lt;h2&gt;Problem&lt;/h2&gt;
