@@ -41,7 +41,7 @@ div#content {
     grid-column-gap: 1.5rem;
     }
     @media (max-width: 767px) {
-        grid-template-columns: 1fr;
+        grid-template-columns: minmax(0, 1fr);
         grid-template-rows: auto auto auto;
         grid-template-areas: 
             "header"
@@ -109,6 +109,9 @@ div#content {
     }
     .stats {
         display: none;
+    }
+    .fun-fact {
+        padding: 1rem;
     }
 }
 header#main-header {
@@ -274,4 +277,11 @@ footer {
     letter-spacing: 0.15rem;
     text-transform: uppercase;
     color: white;
+}
+
+/* ABOUT ME */
+section#about-me {
+    p {
+        margin: 0;
+    }
 }

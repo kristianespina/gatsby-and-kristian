@@ -36,7 +36,7 @@ class Navbar extends React.Component {
             <div>
                 <Link to="/">Home</Link>
                 <a href="https://github.com/kristianespina">Github</a>
-                <a href="mailto:kristian@espina.dev">Contact</a>
+                <Link to="/about">About Me</Link>
             </div>
         </section>
     </>
