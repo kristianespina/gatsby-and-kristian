@@ -1,18 +1,37 @@
 import Typography from "typography"
-import Wordpress2016 from "typography-theme-wordpress-2016"
+//import Lincoln from "typography-theme-lincoln"
+//import Wordpress2016 from "typography-theme-wordpress-2016"
+import Moraga from "typography-theme-moraga"
 
-Wordpress2016.overrideThemeStyles = () => {
+Moraga.overrideThemeStyles = () => {
   return {
     "a.gatsby-resp-image-link": {
       boxShadow: `none`,
     },
+    "html": {
+        fontFamily: `PT Sans`,
+    },
+    "body": {
+        fontFamily: `PT Sans`,
+    }
   }
 }
 
-delete Wordpress2016.googleFonts
-
-const typography = new Typography(Wordpress2016)
-
+//delete Wordpress2016.googleFonts
+const typography = new Typography(Moraga)
+/*
+Lincoln.overrideStyles = () => {
+    return {
+        "html": {
+            fontFamily: `PT Sans`,
+        },
+        "body": {
+            fontFamily: `PT Sans`,
+        }
+    }
+}
+const typography = new Typography(Lincoln)
+*/
 // Hot reload typography in development.
 if (process.env.NODE_ENV !== `production`) {
   typography.injectStyles()

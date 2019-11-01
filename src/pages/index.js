@@ -1,10 +1,8 @@
 import React from "react"
 import { Link, graphql } from "gatsby"
 
-import Bio from "../components/bio"
 import Layout from "../components/layout"
 import SEO from "../components/seo"
-import { rhythm } from "../utils/typography"
 
 class BlogIndex extends React.Component {
   render() {
@@ -15,29 +13,34 @@ class BlogIndex extends React.Component {
     return (
       <Layout location={this.props.location} title={siteTitle}>
         <SEO title="All posts" />
-        <Bio />
         {posts.map(({ node }) => {
           const title = node.frontmatter.title || node.fields.slug
           return (
-            <article key={node.fields.slug}>
-              <header>
-                <h3
-                  style={{
-                    marginBottom: rhythm(1 / 4),
-                  }}
-                >
-                  <Link style={{ boxShadow: `none` }} to={node.fields.slug}>
-                    {title}
-                  </Link>
-                </h3>
-                <small>{node.frontmatter.date}</small>
-              </header>
-              <section>
+
+            <article key={node.fields.slug} className="entry">
+              <section className="image">
+                <img src={node.frontmatter.thumbnail} alt="thumbnail" />
+              </section>
+              <section className="description">
+                <h1 className="title">{title}</h1>
+                <p className="date">
+                {node.frontmatter.date} | 
+                {node.frontmatter.tags.map((list, key) => {
+                    return(
+                    <span key={key} className={ list.style + " inline-block text-xs px-2 rounded-full lowercase font-semibold tracking-wide ml-1" }>
+                        {list.tag}
+                    </span>
+                    )
+                })}
+                </p>         
                 <p
                   dangerouslySetInnerHTML={{
                     __html: node.frontmatter.description || node.excerpt,
                   }}
                 />
+                <Link style={{ boxShadow: `none` }} to={node.fields.slug}>
+                    <button className="btn_more bg-white">See More</button>
+                </Link>
               </section>
             </article>
           )
@@ -67,6 +70,11 @@ export const pageQuery = graphql`
             date(formatString: "MMMM DD, YYYY")
             title
             description
+            tags {
+                tag
+                style
+            }
+            thumbnail
           }
         }
       }
