@@ -26,9 +26,9 @@ class Navbar extends React.Component {
             </div>
         </div>
         <div className={menuActive}>
-        <span href="#" className="block px-2 py-1 text-white font-semibold hover:bg-black">Home</span>
-        <span href="#" className="block px-2 py-1 text-white font-semibold hover:bg-black">About Me</span>
-        <span href="#" className="block px-2 py-1 text-white font-semibold hover:bg-black">Contact</span>
+        <Link to="/"></Link><span className="block px-2 py-1 text-white font-semibold hover:bg-black">Home</span>
+        <a href="https://github.com/kristianespina" className="block px-2 py-1 text-white font-semibold hover:bg-black">Github</a>
+        <Link to="/about"><span className="block px-2 py-1 text-white font-semibold hover:bg-black">Resumé</span></Link>
         </div>
         </section>
 
@@ -36,7 +36,7 @@ class Navbar extends React.Component {
             <div>
                 <Link to="/">Home</Link>
                 <a href="https://github.com/kristianespina">Github</a>
-                <Link to="/about">About Me</Link>
+                <Link to="/about">Resumé</Link>
             </div>
         </section>
     </>
