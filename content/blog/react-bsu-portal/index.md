@@ -2,7 +2,7 @@
 title: "[ReactJS] Unofficial BSU Portal"
 date: "2019-11-09"
 description: An unofficial portal for checking student's grades using publicly accessible batstate-u.edu.ph endpoints. Uses GraphQL under REST API for the backend and ReactJS + Bulma.io for the frontend
-thumbnail: "https://i.imgur.com/0j6plO1.png"
+thumbnail: "https://i.imgur.com/LS7A96O.png"
 tags: [
     {
         tag: "ReactJS",
@@ -21,9 +21,9 @@ tags: [
 # Unofficial BSU Portal
 
 
-## Live Demo: [🍨 Click Here](https://unofficial-bsu-portal.herokuapp.com/)
+Live Demo: [🍨 Click Here](https://unofficial-bsu-portal.herokuapp.com/)
 
-## Project Repository: [✨ Available on Github](https://github.com/kristianespina/Unofficial-BSU-Portal)
+Project Repository: [✨ Available on Github](https://github.com/kristianespina/Unofficial-BSU-Portal)
 
 ## 📸 Project Screenshot
 
@@ -31,7 +31,7 @@ tags: [
 ![Project Screenshot](https://i.imgur.com/hSsLxRT.png)
 
 ### Mobile View
-![Project Screenshot](https://i.imgur.com/0j6plO1.png)
+![Project Screenshot](https://i.imgur.com/X2l33JU.png)
 
 
 
