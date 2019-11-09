@@ -1,4 +1,77 @@
-<?xml version="1.0" encoding="UTF-8"?><rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[Kristian Espina]]></title><description><![CDATA[My Personal Portfolio]]></description><link>https://espina.dev</link><generator>GatsbyJS</generator><lastBuildDate>Tue, 05 Nov 2019 00:11:40 GMT</lastBuildDate><item><title><![CDATA[C# Bot for Ragnarok Online Philippines (ROPH)]]></title><description><![CDATA[tl;dr Utilizes multi-threading, queueing and asyncio. This bot was originally written for ragnarok online ph server. However, I’ve decided…]]></description><link>https://espina.dev/pixel-bot/</link><guid isPermaLink="false">https://espina.dev/pixel-bot/</guid><pubDate>Sat, 02 Nov 2019 22:40:32 GMT</pubDate><content:encoded>&lt;p&gt;&lt;span
+<?xml version="1.0" encoding="UTF-8"?><rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[Kristian Espina]]></title><description><![CDATA[My Personal Portfolio]]></description><link>https://espina.dev</link><generator>GatsbyJS</generator><lastBuildDate>Sat, 09 Nov 2019 14:28:06 GMT</lastBuildDate><item><title><![CDATA[[ReactJS] Unofficial BSU Portal]]></title><description><![CDATA[Unofficial BSU Portal Live Demo: 🍨 Click Here Project Repository: ✨ Available on Github 📸 Project Screenshot Desktop View Project…]]></description><link>https://espina.dev/react-bsu-portal/</link><guid isPermaLink="false">https://espina.dev/react-bsu-portal/</guid><pubDate>Sat, 09 Nov 2019 00:00:00 GMT</pubDate><content:encoded>&lt;h1&gt;Unofficial BSU Portal&lt;/h1&gt;
+&lt;h2&gt;Live Demo: &lt;a href=&quot;https://unofficial-bsu-portal.herokuapp.com/&quot;&gt;🍨 Click Here&lt;/a&gt;&lt;/h2&gt;
+&lt;h2&gt;Project Repository: &lt;a href=&quot;https://github.com/kristianespina/Unofficial-BSU-Portal&quot;&gt;✨ Available on Github&lt;/a&gt;&lt;/h2&gt;
+&lt;h2&gt;📸 Project Screenshot&lt;/h2&gt;
+&lt;h3&gt;Desktop View&lt;/h3&gt;
+&lt;p&gt;&lt;img src=&quot;https://i.imgur.com/hSsLxRT.png&quot; alt=&quot;Project Screenshot&quot;&gt;&lt;/p&gt;
+&lt;h3&gt;Mobile View&lt;/h3&gt;
+&lt;p&gt;&lt;img src=&quot;https://i.imgur.com/0j6plO1.png&quot; alt=&quot;Project Screenshot&quot;&gt;&lt;/p&gt;
+&lt;h2&gt;🍖 Project Details&lt;/h2&gt;
+&lt;p&gt;An unofficial portal for checking student’s grades using publicly accessible batstate-u.edu.ph endpoints. Uses &lt;strong&gt;GraphQL&lt;/strong&gt; under REST API for the backend and &lt;strong&gt;ReactJS&lt;/strong&gt; + Bulma.io for the frontend&lt;/p&gt;
+&lt;h2&gt;🌦 Requirements&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;node.js&lt;/li&gt;
+&lt;li&gt;create-react-app&lt;/li&gt;
+&lt;li&gt;graphql&lt;/li&gt;
+&lt;li&gt;apollo-client&lt;/li&gt;
+&lt;li&gt;apollo-server&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2&gt;📂 Project Structure&lt;/h2&gt;
+&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;text&quot;&gt;&lt;pre class=&quot;language-text&quot;&gt;&lt;code class=&quot;language-text&quot;&gt;.
+├── LICENSE
+├── README.md
+├── bsu-portal-graphql-server
+│   ├── README.md
+│   ├── package-lock.json
+│   ├── package.json
+│   └── src
+│       ├── datasources
+│       │   └── BSUAPI.js
+│       ├── index.js
+│       └── schema.js
+└── bsu-portal-react-frontend
+    ├── README.md
+    ├── package-lock.json
+    ├── package.json
+    ├── public
+    │   ├── favicon.ico
+    │   ├── index.html
+    │   ├── manifest.json
+    │   └── robots.txt
+    └── src
+        ├── API
+        │   └── client.js
+        ├── App.css
+        ├── App.js
+        ├── App.test.js
+        ├── Assets
+        │   ├── 2.svg
+        │   └── rocket.svg
+        ├── components
+        │   ├── Grades.js
+        │   └── Name.js
+        ├── index.css
+        ├── index.js
+        └── serviceWorker.js&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;h2&gt;🚀 Usage&lt;/h2&gt;
+&lt;h3&gt;To launch both the back-end and the front-end:&lt;/h3&gt;
+&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;bash&quot;&gt;&lt;pre class=&quot;language-bash&quot;&gt;&lt;code class=&quot;language-bash&quot;&gt;&lt;span class=&quot;token function&quot;&gt;npm&lt;/span&gt; start&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;h3&gt;To launch the &lt;strong&gt;Back-End Server&lt;/strong&gt;:&lt;/h3&gt;
+&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;bash&quot;&gt;&lt;pre class=&quot;language-bash&quot;&gt;&lt;code class=&quot;language-bash&quot;&gt;&lt;span class=&quot;token builtin class-name&quot;&gt;cd&lt;/span&gt; bsu-portal-graphql-server
+&lt;span class=&quot;token function&quot;&gt;npm&lt;/span&gt; start&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;h3&gt;To launch the &lt;strong&gt;Front-End Server&lt;/strong&gt;:&lt;/h3&gt;
+&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;bash&quot;&gt;&lt;pre class=&quot;language-bash&quot;&gt;&lt;code class=&quot;language-bash&quot;&gt;&lt;span class=&quot;token builtin class-name&quot;&gt;cd&lt;/span&gt; bsu-portal-react-frontend
+&lt;span class=&quot;token function&quot;&gt;npm&lt;/span&gt; start&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;h2&gt;⚙ Installation&lt;/h2&gt;
+&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;bash&quot;&gt;&lt;pre class=&quot;language-bash&quot;&gt;&lt;code class=&quot;language-bash&quot;&gt;&lt;span class=&quot;token function&quot;&gt;npm&lt;/span&gt; run postinstall&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;h2&gt;👊 Contributing&lt;/h2&gt;
+&lt;p&gt;Pull requests are welcome. For major changes, please open an issue first to discuss what you would like to change.&lt;/p&gt;
+&lt;h2&gt;🧑 Author&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Kristian Espina&lt;/strong&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2&gt;📄 License&lt;/h2&gt;
+&lt;p&gt;This project is licensed under &lt;a href=&quot;https://choosealicense.com/licenses/mit/&quot;&gt;MIT&lt;/a&gt;&lt;/p&gt;</content:encoded></item><item><title><![CDATA[C# Bot for Ragnarok Online Philippines (ROPH)]]></title><description><![CDATA[tl;dr Utilizes multi-threading, queueing and asyncio. This bot was originally written for ragnarok online ph server. However, I’ve decided…]]></description><link>https://espina.dev/pixel-bot/</link><guid isPermaLink="false">https://espina.dev/pixel-bot/</guid><pubDate>Sat, 02 Nov 2019 22:40:32 GMT</pubDate><content:encoded>&lt;p&gt;&lt;span
       class=&quot;gatsby-resp-image-wrapper&quot;
       style=&quot;position: relative; display: block; margin-left: auto; margin-right: auto;  max-width: 590px;&quot;
     &gt;
