@@ -166,6 +166,7 @@ section#main article.entry {
 
 section#main article.entry section.image {
   grid-area: image;
+  overflow: hidden;
 }
 
 section#main article.entry section.image img {
@@ -174,12 +175,15 @@ section#main article.entry section.image img {
   -o-object-fit: cover;
      object-fit: cover;
   margin-bottom: 10px;
+  -webkit-transition: -webkit-transform 0.5s ease-in-out;
+  transition: -webkit-transform 0.5s ease-in-out;
+  transition: transform 0.5s ease-in-out;
+  transition: transform 0.5s ease-in-out, -webkit-transform 0.5s ease-in-out;
 }
 
-section#main article.entry section.image p {
-  margin: 0;
-  font-size: 12px;
-  text-align: right;
+section#main article.entry section.image img:hover {
+  -webkit-transform: scale(1.5);
+          transform: scale(1.5);
 }
 
 section#main article.entry section.description {

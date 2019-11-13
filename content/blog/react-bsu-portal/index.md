@@ -18,26 +18,19 @@ tags: [
     },
 ]
 ---
-# Unofficial BSU Portal
-
-
 Live Demo: [🍨 Click Here](https://unofficial-bsu-portal.herokuapp.com/)
 
 Project Repository: [✨ Available on Github](https://github.com/kristianespina/Unofficial-BSU-Portal)
+
+## 🍖 Project Details
+
+An unofficial portal for checking student's grades using publicly accessible batstate-u.edu.ph endpoints. Uses **GraphQL** under REST API for the backend and **ReactJS** + Bulma.io for the frontend
 
 ## 📸 Project Screenshot
 
 ### Desktop View
 ![Project Screenshot](https://i.imgur.com/hSsLxRT.png)
 
-### Mobile View
-![Project Screenshot](https://i.imgur.com/X2l33JU.png)
-
-
-
-## 🍖 Project Details
-
-An unofficial portal for checking student's grades using publicly accessible batstate-u.edu.ph endpoints. Uses **GraphQL** under REST API for the backend and **ReactJS** + Bulma.io for the frontend
 
 ## 🌦 Requirements
 - node.js
@@ -113,6 +106,7 @@ npm start
 ```bash
 npm run postinstall
 ```
+
 
 ## 👊 Contributing
 

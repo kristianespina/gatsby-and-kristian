@@ -157,16 +157,16 @@ section#main {
         margin-top: 24px;
         section.image {
             grid-area: image;
+            overflow: hidden;
             img {
                 height: 100%;
                 width: 100%;
                 object-fit: cover;
                 margin-bottom: 10px;
-            }
-            p {
-                margin: 0;
-                font-size: 12px;
-                text-align: right;
+                transition: transform 0.5s ease-in-out;
+                &:hover {
+                    transform: scale(1.5);
+                }
             }
         }
         section.description {
