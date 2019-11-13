@@ -1,13 +1,10 @@
-<?xml version="1.0" encoding="UTF-8"?><rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[Kristian Espina]]></title><description><![CDATA[My Personal Portfolio]]></description><link>https://espina.dev</link><generator>GatsbyJS</generator><lastBuildDate>Sat, 09 Nov 2019 14:40:13 GMT</lastBuildDate><item><title><![CDATA[[ReactJS] Unofficial BSU Portal]]></title><description><![CDATA[Unofficial BSU Portal Live Demo: 🍨 Click Here Project Repository: ✨ Available on Github 📸 Project Screenshot Desktop View Project…]]></description><link>https://espina.dev/react-bsu-portal/</link><guid isPermaLink="false">https://espina.dev/react-bsu-portal/</guid><pubDate>Sat, 09 Nov 2019 00:00:00 GMT</pubDate><content:encoded>&lt;h1&gt;Unofficial BSU Portal&lt;/h1&gt;
-&lt;p&gt;Live Demo: &lt;a href=&quot;https://unofficial-bsu-portal.herokuapp.com/&quot;&gt;🍨 Click Here&lt;/a&gt;&lt;/p&gt;
+<?xml version="1.0" encoding="UTF-8"?><rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[Kristian Espina]]></title><description><![CDATA[My Personal Portfolio]]></description><link>https://espina.dev</link><generator>GatsbyJS</generator><lastBuildDate>Wed, 13 Nov 2019 10:40:54 GMT</lastBuildDate><item><title><![CDATA[[ReactJS] Unofficial BSU Portal]]></title><description><![CDATA[Live Demo: 🍨 Click Here Project Repository: ✨ Available on Github 🍖 Project Details An unofficial portal for checking student’s grades…]]></description><link>https://espina.dev/react-bsu-portal/</link><guid isPermaLink="false">https://espina.dev/react-bsu-portal/</guid><pubDate>Sat, 09 Nov 2019 00:00:00 GMT</pubDate><content:encoded>&lt;p&gt;Live Demo: &lt;a href=&quot;https://unofficial-bsu-portal.herokuapp.com/&quot;&gt;🍨 Click Here&lt;/a&gt;&lt;/p&gt;
 &lt;p&gt;Project Repository: &lt;a href=&quot;https://github.com/kristianespina/Unofficial-BSU-Portal&quot;&gt;✨ Available on Github&lt;/a&gt;&lt;/p&gt;
+&lt;h2&gt;🍖 Project Details&lt;/h2&gt;
+&lt;p&gt;An unofficial portal for checking student’s grades using publicly accessible batstate-u.edu.ph endpoints. Uses &lt;strong&gt;GraphQL&lt;/strong&gt; under REST API for the backend and &lt;strong&gt;ReactJS&lt;/strong&gt; + Bulma.io for the frontend&lt;/p&gt;
 &lt;h2&gt;📸 Project Screenshot&lt;/h2&gt;
 &lt;h3&gt;Desktop View&lt;/h3&gt;
 &lt;p&gt;&lt;img src=&quot;https://i.imgur.com/hSsLxRT.png&quot; alt=&quot;Project Screenshot&quot;&gt;&lt;/p&gt;
-&lt;h3&gt;Mobile View&lt;/h3&gt;
-&lt;p&gt;&lt;img src=&quot;https://i.imgur.com/X2l33JU.png&quot; alt=&quot;Project Screenshot&quot;&gt;&lt;/p&gt;
-&lt;h2&gt;🍖 Project Details&lt;/h2&gt;
-&lt;p&gt;An unofficial portal for checking student’s grades using publicly accessible batstate-u.edu.ph endpoints. Uses &lt;strong&gt;GraphQL&lt;/strong&gt; under REST API for the backend and &lt;strong&gt;ReactJS&lt;/strong&gt; + Bulma.io for the frontend&lt;/p&gt;
 &lt;h2&gt;🌦 Requirements&lt;/h2&gt;
 &lt;ul&gt;
 &lt;li&gt;node.js&lt;/li&gt;
