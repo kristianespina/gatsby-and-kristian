@@ -9,23 +9,23 @@ There are two (2) branches in this git repository namely:
 - **master** - where development happens
 
 
-## Requirements
+## 🥤 Requirements
 - node.js
 - a github account (optional)
 
-## Installation
+## ⚙ Installation
 ```bash
 npm install
 ```
 
-## Deploying to Github
+## 🚀 Deploying to Github
 ```bash
 gatsby deploy
 or
 npm run deploy
 ```
 
-## Development
+## 🌤 Development
 ```bash
 gatsby develop
 ```
