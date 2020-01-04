@@ -1,11 +1,11 @@
 ---
-title: C# Bot for Ragnarok Online Philippines (ROPH)
-date: "2019-11-02T22:40:32.169Z"
-description: A windows compatible application written in C# which mimics players in executing exhausting tasks such as hunting and farming. The program utilizes queueing multithreading, and asynchronous programming for efficiency.
+title: Golang Pixel-based bot for Ragnarok Online
+date: "2020-1-02T22:40:32.169Z"
+description: An automation tool for Ragnarok Online with Gepard Shield Protection written using Golang and GoCV.
 thumbnail: "https://i.imgur.com/rvdyVuP.png"
 tags: [
     {
-        tag: "C#",
+        tag: "Go Lang",
         style: "bg-green-500 text-white"
     },
     {
@@ -19,17 +19,39 @@ tags: [
 ]
 ---
 ![Bot Banner](./pixelbot_banner.png)
-## tl;dr
-Utilizes multi-threading, queueing and asyncio. This bot was originally written for ragnarok online ph server. However, I've decided to open the source to the public since I am no longer using it. Basically, this program calls on to system-level hooks to avoid anti-cheat detections.
+An automation tool for Ragnarok Online with Gepard Shield Protection written using Golang and GoCV.
 
-## Technologies Used
-- Windows C#
-- WinForms
-- Python
-- OpenCV
-- Multithreading/AsyncIO
+## 🍰 Video Demo
 
-## Source Code
-> ~~Unfortunately, the project is closed-source. Preview of source code available upon request.~~ EDIT: Opensourced*
-> 
-> https://gitlab.com/onelespina/ROPHBot
+[![Pixel Bot Demo Video](http://img.youtube.com/vi/cx92LeBfn1s/0.jpg)](http://www.youtube.com/watch?v=cx92LeBfn1s "Pixel Bot Demo Video")
+
+## 🍯 Features
+
+- Random Walk
+- Auto Attack
+- Auto Loot
+- Auto Teleport
+- Auto Potion
+- Auto Skill
+- Auto Heal
+- MVP Detection
+
+## 🍠 Requirements
+
+- Go Lang >= 1.13
+  
+## 🍻 Usage
+
+Windows
+
+```bash
+go build
+```
+
+Linux
+  
+```bash
+go build # to compile
+# or
+go run *.go # to run
+```
