@@ -5,8 +5,8 @@ description: "A game automation solution for Ragnarok Mobile : Eternal Love. Ini
 thumbnail: "https://i.imgur.com/s1ayvE4.png"
 tags: [
     {
-        tag: "python",
-        style: "bg-yellow-500 text-white"
+        tag: "C#",
+        style: "bg-blue-400 text-white"
     },
     {
         tag: "game automation",

@@ -6,16 +6,12 @@ description: An LSTM built using PyTorch to predict whether a certain review is 
 thumbnail: "https://i.imgur.com/y9uf3gR.png"
 tags: [
     {
+        tag: "python",
+        style: "bg-yellow-400 text-white"
+    },
+    {
         tag: "PyTorch",
         style: "bg-red-500 text-white"
-    },
-    {
-        tag: "HTML",
-        style: "bg-orange-400 text-white"
-    },
-    {
-        tag: "CSS",
-        style: "bg-yellow-400 text-white"
     },
 ]
 ---
