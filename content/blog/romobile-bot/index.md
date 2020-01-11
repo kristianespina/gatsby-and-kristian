@@ -2,7 +2,7 @@
 title: "C# Bot for RO Mobile : Eternal Love (Android)"
 date: "2019-11-02T22:40:32.169Z"
 description: "A game automation solution for Ragnarok Mobile : Eternal Love. Initially, this project was closed source."
-thumbnail: "https://i.imgur.com/LVRLkkT.jpg"
+thumbnail: "https://i.imgur.com/s1ayvE4.png"
 tags: [
     {
         tag: "python",

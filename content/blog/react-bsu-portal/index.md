@@ -1,5 +1,5 @@
 ---
-title: "[ReactJS] Unofficial BSU Portal"
+title: "Unofficial BSU Portal using ReactJS"
 date: "2019-11-09"
 description: An unofficial portal for checking student's grades using publicly accessible batstate-u.edu.ph endpoints. Uses GraphQL under REST API for the backend and ReactJS + Bulma.io for the frontend
 thumbnail: "https://i.imgur.com/LS7A96O.png"
