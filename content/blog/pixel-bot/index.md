@@ -35,6 +35,7 @@ An automation tool for Ragnarok Online with Gepard Shield Protection written usi
 - Auto Skill
 - Auto Heal
 - MVP Detection
+- Encrypted License Checking (AES)
 
 ## 🍠 Requirements
 
