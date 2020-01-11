@@ -2,7 +2,7 @@
 title: Golang Pixel-based bot for Ragnarok Online
 date: "2020-01-02T22:40:32.169Z"
 description: An automation tool for Ragnarok Online with Gepard Shield Protection written using Golang and GoCV.
-thumbnail: "https://i.imgur.com/rvdyVuP.png"
+thumbnail: "https://i.imgur.com/DnSHLEE.png"
 tags: [
     {
         tag: "Go Lang",
