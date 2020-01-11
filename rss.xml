@@ -1,4 +1,29 @@
-<?xml version="1.0" encoding="UTF-8"?><rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[Kristian Espina]]></title><description><![CDATA[My Personal Portfolio]]></description><link>https://espina.dev</link><generator>GatsbyJS</generator><lastBuildDate>Sat, 11 Jan 2020 10:18:33 GMT</lastBuildDate><item><title><![CDATA[Golang Pixel-based bot for Ragnarok Online]]></title><description><![CDATA[An automation tool for Ragnarok Online with Gepard Shield Protection written using Golang and GoCV. 🍰 Video Demo Pixel Bot Demo Video…]]></description><link>https://espina.dev/pixel-bot/</link><guid isPermaLink="false">https://espina.dev/pixel-bot/</guid><pubDate>Thu, 02 Jan 2020 22:40:32 GMT</pubDate><content:encoded>&lt;p&gt;&lt;span
+<?xml version="1.0" encoding="UTF-8"?><rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[Kristian Espina]]></title><description><![CDATA[My Personal Portfolio]]></description><link>https://espina.dev</link><generator>GatsbyJS</generator><lastBuildDate>Sat, 11 Jan 2020 10:29:06 GMT</lastBuildDate><item><title><![CDATA[Sentiment Analysis of Amazon Reviews]]></title><description><![CDATA[LSTM built using PyTorch to predict whether a certain review is positive or negative (sentiment). 🍟 Results A noticeable plateau occurs at…]]></description><link>https://espina.dev/lstm-amazon-reviews/</link><guid isPermaLink="false">https://espina.dev/lstm-amazon-reviews/</guid><pubDate>Sat, 11 Jan 2020 00:00:00 GMT</pubDate><content:encoded>&lt;p&gt;LSTM built using PyTorch to predict whether a certain review is positive or negative (sentiment).&lt;/p&gt;
+&lt;h2&gt;🍟 Results&lt;/h2&gt;
+&lt;p&gt;A noticeable plateau occurs at around Step 5000 at the first epoch. A decrease in alpha (learning rate) is recommended and an increase in the number of embedding dimensions and hidden dimensions. &lt;/p&gt;
+&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;text&quot;&gt;&lt;pre class=&quot;language-text&quot;&gt;&lt;code class=&quot;language-text&quot;&gt;Test Loss: 0.211
+Test Accuracy: 91.692%&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;h2&gt;🍰 Training the Model&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;Download the &lt;a href=&quot;https://www.kaggle.com/bittlingmayer/amazonreviews?&quot;&gt;dataset&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;Extract the dataset&lt;/li&gt;
+&lt;li&gt;Run the jupyter notebook&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2&gt;⚙️ Requirements&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;Python &gt;= 3.7.0&lt;/li&gt;
+&lt;li&gt;Jupyter Notebook&lt;/li&gt;
+&lt;li&gt;NumPy&lt;/li&gt;
+&lt;li&gt;PyTorch&lt;/li&gt;
+&lt;li&gt;CUDA 11.0&lt;/li&gt;
+&lt;li&gt;Optional: tqdm&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2&gt;📜 Dataset&lt;/h2&gt;
+&lt;p&gt;&lt;a href=&quot;https://www.kaggle.com/bittlingmayer/amazonreviews?&quot;&gt;Amazon Reviews for Sentiment Analysis (Kaggle)&lt;/a&gt;&lt;/p&gt;
+&lt;h2&gt;🧑 Author&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Kristian Espina&lt;/strong&gt;&lt;/li&gt;
+&lt;/ul&gt;</content:encoded></item><item><title><![CDATA[Golang Pixel-based bot for Ragnarok Online]]></title><description><![CDATA[An automation tool for Ragnarok Online with Gepard Shield Protection written using Golang and GoCV. 🍰 Video Demo Pixel Bot Demo Video…]]></description><link>https://espina.dev/pixel-bot/</link><guid isPermaLink="false">https://espina.dev/pixel-bot/</guid><pubDate>Thu, 02 Jan 2020 22:40:32 GMT</pubDate><content:encoded>&lt;p&gt;&lt;span
       class=&quot;gatsby-resp-image-wrapper&quot;
       style=&quot;position: relative; display: block; margin-left: auto; margin-right: auto;  max-width: 590px;&quot;
     &gt;
@@ -52,7 +77,7 @@ An automation tool for Ragnarok Online with Gepard Shield Protection written usi
 &lt;p&gt;Linux&lt;/p&gt;
 &lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;bash&quot;&gt;&lt;pre class=&quot;language-bash&quot;&gt;&lt;code class=&quot;language-bash&quot;&gt;go build &lt;span class=&quot;token comment&quot;&gt;# to compile&lt;/span&gt;
 &lt;span class=&quot;token comment&quot;&gt;# or&lt;/span&gt;
-go run *.go &lt;span class=&quot;token comment&quot;&gt;# to run&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;</content:encoded></item><item><title><![CDATA[[ReactJS] Unofficial BSU Portal]]></title><description><![CDATA[Live Demo: 🍨 Click Here Project Repository: ✨ Available on Github 🍖 Project Details An unofficial portal for checking student’s grades…]]></description><link>https://espina.dev/react-bsu-portal/</link><guid isPermaLink="false">https://espina.dev/react-bsu-portal/</guid><pubDate>Sat, 09 Nov 2019 00:00:00 GMT</pubDate><content:encoded>&lt;p&gt;Live Demo: &lt;a href=&quot;https://unofficial-bsu-portal.herokuapp.com/&quot;&gt;🍨 Click Here&lt;/a&gt;&lt;/p&gt;
+go run *.go &lt;span class=&quot;token comment&quot;&gt;# to run&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;</content:encoded></item><item><title><![CDATA[Unofficial BSU Portal using ReactJS]]></title><description><![CDATA[Live Demo: 🍨 Click Here Project Repository: ✨ Available on Github 🍖 Project Details An unofficial portal for checking student’s grades…]]></description><link>https://espina.dev/react-bsu-portal/</link><guid isPermaLink="false">https://espina.dev/react-bsu-portal/</guid><pubDate>Sat, 09 Nov 2019 00:00:00 GMT</pubDate><content:encoded>&lt;p&gt;Live Demo: &lt;a href=&quot;https://unofficial-bsu-portal.herokuapp.com/&quot;&gt;🍨 Click Here&lt;/a&gt;&lt;/p&gt;
 &lt;p&gt;Project Repository: &lt;a href=&quot;https://github.com/kristianespina/Unofficial-BSU-Portal&quot;&gt;✨ Available on Github&lt;/a&gt;&lt;/p&gt;
 &lt;h2&gt;🍖 Project Details&lt;/h2&gt;
 &lt;p&gt;An unofficial portal for checking student’s grades using publicly accessible batstate-u.edu.ph endpoints. Uses &lt;strong&gt;GraphQL&lt;/strong&gt; under REST API for the backend and &lt;strong&gt;ReactJS&lt;/strong&gt; + Bulma.io for the frontend&lt;/p&gt;
